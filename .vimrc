@@ -177,6 +177,12 @@ autocmd BufNewFile * normal G
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "键盘命令
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" F2: remove the blank row in source code"
+" F3: switch file in current folder
+" F5: run shell script or compile C, C++ scource code.
+" F6: format source code
+" F8: debug mode for C, C++
+" F9: list all functions in source code
 :nmap <silent> <F9> <ESC>:Tlist<RETURN>
 " shift tab pages
 map <S-Left> :tabp<CR>
